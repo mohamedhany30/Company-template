@@ -1,0 +1,280 @@
+@font-face {
+    font-family:Montserrat ;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family:Lato ;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+body{
+  position: relative;
+}
+/*start navbar*/
+
+.mynavbar{
+    background-color:black !important;
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.navbar .nav-link{
+    color: white !important;
+    padding: 0.8rem 1rem !important;
+
+}
+.navbar .active , .navbar .nav-link:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+/*end navbar*/
+
+/*start header*/
+ .myheader{
+    background-color:black;
+    padding: 100px 25px;
+}
+
+.myheader h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    font-size: 63px;
+    line-height: 69px;
+    font-weight: 500;
+    color: white !important;
+
+}
+ .myheader p{
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 200;
+    color: white !important;
+ }
+ .myheader .input-group{
+    height: 20px !important;
+    width: 30% !important;
+    
+    
+ }
+ /*end header*/
+
+ /*start about section*/
+ #about{
+    padding: 60px 50px;
+  
+
+ }
+ #about h2{
+    font-family: Lato;
+    font-size:24px ;
+    line-height:26px ;
+    font-weight:600 ;
+    margin-top: 40px;
+
+ }
+ #about h4{
+    font-family: Lato;
+    font-size:19px ;
+    line-height:26px ;
+    font-weight:400 ;
+    margin-top: 20px;
+ }
+ #about p{
+    font-family: Lato;
+    font-size:15px ;
+    line-height:27px ;
+    font-weight:400 ;
+    color: #818181;
+    margin-top: 20px;
+
+ }
+ #a2{
+    padding: 60px 50px;
+    background-color:#F6F6F6 !important;
+  
+
+ }
+ #a2 h2{
+    font-family: Lato;
+    font-size:24px ;
+    line-height:26px ;
+    font-weight:600 ;
+    margin-top: 30px;
+
+ }
+ #a2 h4{
+    font-family: Lato;
+    font-size:19px ;
+    line-height:26px ;
+    font-weight:400 ;
+    margin-top: 20px;
+ }
+ #a2 p{
+    font-family: Lato;
+    font-size:15px ;
+    line-height:27px ;
+    font-weight:400 ;
+    color: #818181;
+    margin-top: 20px;
+
+ }
+ .fa-solid {
+   color: black !important;
+ }
+
+
+ /*end about section*/
+
+ /*start services section*/
+ #services h2{
+   font-family: Lato;
+   font-size:24px ;
+   line-height:26px ;
+   font-weight:600 ;
+
+ }
+ #services h4{
+   font-family: Lato;
+   font-size:19px ;
+   line-height:26px ;
+   font-weight:400 ;
+
+ }
+ #services p{
+   font-family: Lato;
+   font-size:15px ;
+   line-height:27px ;
+   font-weight:400 ;
+   color: #818181;
+
+ }
+
+ /*end services section*/
+
+ /*start portfolio section*/
+ #portfolio{
+   background-color: #F6F6F6 !important;
+ }
+ #portfolio h2{
+   font-family: Lato;
+   font-size:24px ;
+   line-height:26px ;
+   font-weight:600 ;
+
+ }
+ #portfolio h4{
+   font-family: Lato;
+   font-size:19px ;
+   line-height:26px ;
+   font-weight:400 ;
+
+ }
+ #portfolio h5{
+   font-family: Lato;
+   font-size:17px ;
+   line-height:21px ;
+   font-weight:700 ;
+   color: #818181;
+
+ }
+ 
+ #portfolio p{
+   font-family: Lato;
+   font-size:15px ;
+   line-height:27px ;
+   font-weight:400 ;
+   color: #818181;
+
+ }
+ #carousel{
+   background-color: #F6F6F6 !important;
+
+ }
+ #carousel h2{
+   font-family: Lato;
+   font-size:24px ;
+   line-height:26px ;
+   font-weight:600 ;
+
+ }
+ #carousel p{
+   font-family: Lato;
+   font-size:19px ;
+   line-height:26px ;
+   font-weight:400 ;
+   font-style: italic;
+
+ }
+ #carousel .carousel-indicators button{
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   color: black !important;
+ }
+ #pricing h2{
+  font-family: Lato;
+  font-size:24px ;
+  line-height:26px ;
+  font-weight:600 ;
+
+ }
+ #pricing h4{
+  font-family: Lato;
+  font-size:19px ;
+  line-height:26px ;
+  font-weight:400 ;
+
+ }
+ #pricing h1{
+  font-family: Lato;
+  font-size:34px ;
+  line-height:40px ;
+  font-weight:500 ;
+
+ }
+ #pricing .card-header{
+  background-color: black !important;
+ }
+ #contact{
+  background-color: #F6F6F6 !important;
+
+
+ }
+ #contact h2{
+  font-family: Lato;
+   font-size:24px ;
+   line-height:26px ;
+   font-weight:600 ;
+
+ }
+ #contact p{
+  font-family: Lato;
+  font-size:15px ;
+  line-height:27px ;
+  font-weight:400 ;
+  color: #818181;
+
+ }
+
+
+
+ 
+ 
+ 
+ /*end portfolio section*/
+
+ @media screen and (max-width:767px)  {
+   .navbar-toggler-icon, .navbar-brand{
+      padding: 0.8rem 1rem !important;
+   }
+   .myheader .input-group{
+      width: 90% !important;
+   }
+   
+ }
